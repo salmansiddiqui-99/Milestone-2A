@@ -17,14 +17,14 @@ const testimonials = [
     name: "James Lee",
     review:
       "A delightful dining experience! The Peking Duck was crispy and flavorful. Will definitely come back!",
-    image: "/customer2.jpg",
+    image: "/customer1.jpg",
   },
   {
     id: 3,
     name: "Sophia Wang",
     review:
       "Absolutely loved the Dim Sum! Fresh ingredients and beautifully presented. A must-visit restaurant!",
-    image: "/customer3.jpg",
+    image: "/customer1.jpg",
   },
 ];
 
