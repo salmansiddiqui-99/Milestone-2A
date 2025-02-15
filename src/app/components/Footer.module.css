@@ -1,0 +1,76 @@
+.footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .brand h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #ff8a00;
+  }
+  
+  .brand p {
+    font-size: 16px;
+    color: #bbb;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav a:hover {
+    color: #ff8a00;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon {
+    font-size: 30px;
+    color: white;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+    color: #ff8a00;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #bbb;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
