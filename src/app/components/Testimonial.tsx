@@ -48,7 +48,8 @@ export default function Testimonial() {
               height={80}
               className={styles.avatar}
             />
-            <p className={styles.review}>"{testimonial.review}"</p>
+            {/* FIXED: Properly wrap quotes inside JSX */}
+            <p className={styles.review}>{`"${testimonial.review}"`}</p>
             <h3 className={styles.name}>- {testimonial.name}</h3>
           </motion.div>
         ))}
